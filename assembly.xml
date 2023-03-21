@@ -1,0 +1,19 @@
+<assembly>
+  <id>${project.artifactId}</id>
+  <includeBaseDirectory>false</includeBaseDirectory>
+
+  <formats>
+    <format>zip</format>
+  </formats>
+
+  <fileSets>
+    <fileSet>
+      <directory>${project.basedir}</directory>
+      <outputDirectory>./</outputDirectory>
+      <includes>
+        <include>vars/</include>
+      </includes>
+    </fileSet>
+  </fileSets>
+</assembly>
+
